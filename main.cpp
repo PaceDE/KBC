@@ -46,14 +46,22 @@ public:
 
 class GameManager: public Question{
 protected:
-    int level;
+    int level=1;
     int grabQuestionNumber(){
         // Get the Question number located at the beginning of the line
         int num = 0;
         num = int(this->q[0]) - 48;
-        if (this->q[1] != ' ')
+        if (this->q[1] != ')'){
             num = num * 10 + (int(this->q[1]) - 48);
-        return num;
+        }
+        if(this->q[1]==')' || this->q[2]==')')
+        {
+            return num;
+        }
+        else{
+        return 0;
+        }
+
     }
 public:
     GameManager();                                       // Constructor
@@ -78,15 +86,30 @@ GameManager::GameManager(){
     this->filename = "./question/level1.txt";
     this->answerFile = "./answer/answer1.txt";
 }
+void GameManager::increaseLevel(){
+    this->level++;
+    if (this->level == 2){
+        this->filename = "./question/level2.txt";
+        this->answerFile = "./answer/answer2.txt";
+    } else if(this->level == 3){
+        this->filename = "./question/level3.txt";
+        this->answerFile = "./answer/answer3.txt";
+    } else {
+        this->filename = "./question/level4.txt";
+        this->answerFile = "./answer/answer4.txt";
+    }
+}
 
 string GameManager::getRandomQuestion(){
-        this->questionNumber = getRandomNum(1,64);
+        this->questionNumber = getRandomNum(1,75);
+
         ifstream file(this->filename);
         while(getline (file, this->q)){
             int num = grabQuestionNumber();
 
             if (this->questionNumber == num){
                 file.close();
+
 
                 return this->q;
             }
@@ -99,7 +122,7 @@ string GameManager::getPureQuestion(){
     string pureQuestion;
     int c;
     for (c = 0; c<q.length(); c++){
-        if(c<2) continue;
+        if(c<3) continue;
         pureQuestion += q[c];
     }
     return pureQuestion;
@@ -107,10 +130,13 @@ string GameManager::getPureQuestion(){
 }
 
 void GameManager::displayOptions(){
+
     ifstream file(this->filename);
+    int no;
     while(getline (file, this->q)){
         int num = grabQuestionNumber();
         if (this->questionNumber == num){
+                no=num;
             for(int i = 0; i<4; i++)
                 getline(file, this->option[i]);
             file.close();
@@ -118,10 +144,13 @@ void GameManager::displayOptions(){
     }
 
     SetConsoleTextAttribute(h,6);
+   // gotoxy(6,13);cout <<num<<"  "<< this->questionNumber;
+    gotoxy(6,13);cout << no<< " " << this->questionNumber;
     gotoxy(7,13);cout << "A) " << this->option[0];
     gotoxy(8,13);cout << "B) " << this->option[1];
     gotoxy(9,13);cout << "C) " << this->option[2];
     gotoxy(10,13);cout << "D) " << this->option[3];
+
     SetConsoleTextAttribute(h,8);
     gotoxy(7,65);cout<<"[1]";
     gotoxy(8,65);cout<<"[2]";
@@ -152,7 +181,7 @@ int GameManager::getAnswer(){
     // Error
     return -1;
 }
-
+/*
 void GameManager::increaseLevel(){
     this->level++;
     if (this->level == 2){
@@ -165,7 +194,7 @@ void GameManager::increaseLevel(){
         this->filename = "./question/level4.txt";
         this->answerFile = "./answer/answer4.txt";
     }
-}
+}*/
 void GameManager::gameOver(int correctposition){
     draw_boundary();
     Cheque(correctposition);
