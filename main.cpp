@@ -38,6 +38,7 @@ public:
     virtual int getQuestionNumber() = 0;
     virtual int getAnswer() = 0;
     virtual void gameOver(int)=0;
+    virtual string getOption(int)=0;
 
 
 
@@ -47,22 +48,6 @@ public:
 class GameManager: public Question{
 protected:
     int level=1;
-    int grabQuestionNumber(){
-        // Get the Question number located at the beginning of the line
-        int num = 0;
-        num = int(this->q[0]) - 48;
-        if (this->q[1] != ')'){
-            num = num * 10 + (int(this->q[1]) - 48);
-        }
-        if(this->q[1]==')' || this->q[2]==')')
-        {
-            return num;
-        }
-        else{
-        return 0;
-        }
-
-    }
 public:
     GameManager();                                       // Constructor
 
@@ -105,7 +90,7 @@ string GameManager::getRandomQuestion(){
 
         ifstream file(this->filename);
         while(getline (file, this->q)){
-            int num = grabQuestionNumber();
+            int num = getQuestionNumber();
 
             if (this->questionNumber == num){
                 file.close();
@@ -134,7 +119,7 @@ void GameManager::displayOptions(){
     ifstream file(this->filename);
     int no;
     while(getline (file, this->q)){
-        int num = grabQuestionNumber();
+        int num = getQuestionNumber();
         if (this->questionNumber == num){
                 no=num;
             for(int i = 0; i<4; i++)
@@ -152,18 +137,25 @@ void GameManager::displayOptions(){
     gotoxy(10,13);cout << "D) " << this->option[3];
 
     SetConsoleTextAttribute(h,8);
-    gotoxy(7,65);cout<<"[1]";
-    gotoxy(8,65);cout<<"[2]";
-    gotoxy(9,65);cout<<"[3]";
-    gotoxy(10,65);cout<<"[4]";
+    gotoxy(7,70);cout<<"[1]";
+    gotoxy(8,70);cout<<"[2]";
+    gotoxy(9,70);cout<<"[3]";
+    gotoxy(10,70);cout<<"[4]";
     SetConsoleTextAttribute(h,15);
-
-
-
 }
 
 int GameManager::getQuestionNumber(){
-    return this->questionNumber;
+    // Get the Question number located at the beginning of the line
+    int num = 0;
+    num = int(this->q[0]) - 48;
+    if (this->q[1] != ')' && this->q[2]==')')
+        num = num * 10 + (int(this->q[1]) - 48);
+
+    if(this->q[1]==')' || this->q[2]==')')
+        return num;
+    else
+        return 0;
+
 }
 
 int GameManager::getAnswer(){
@@ -181,20 +173,7 @@ int GameManager::getAnswer(){
     // Error
     return -1;
 }
-/*
-void GameManager::increaseLevel(){
-    this->level++;
-    if (this->level == 2){
-        this->filename = "./question/level2.txt";
-        this->answerFile = "./answer/answer2.txt";
-    } else if(this->level == 3){
-        this->filename = "./question/level3.txt";
-        this->answerFile = "./answer/answer3.txt";
-    } else {
-        this->filename = "./question/level4.txt";
-        this->answerFile = "./answer/answer4.txt";
-    }
-}*/
+
 void GameManager::gameOver(int correctposition){
     draw_boundary();
     Cheque(correctposition);
@@ -427,6 +406,8 @@ int main(){
         // Question
         string question1 = "";
         string question2 = "";
+        string question3 = "";
+        string question4 = "";
         question = gm.getPureQuestion();
 
 
@@ -437,19 +418,41 @@ int main(){
                 question1 += question[i];
              }
         }
-        else
+        else if(question.length()<110)
         {
              for (int i=0;i<55;i++)
             question1 += question[i];
             for (int i=55;i<question.length();i++)
             question2 += question[i];
         }
+        else if(question.length()<165)
+        {
+             for (int i=0;i<55;i++)
+            question1 += question[i];
+            for (int i=55;i<110;i++)
+            question2 += question[i];
+            for (int i=110;i<question.length();i++)
+            question3 += question[i];
+        }
+        else
+        {
+            for (int i=0;i<55;i++)
+            question1 += question[i];
+            for (int i=55;i<110;i++)
+            question2 += question[i];
+            for (int i=110;i<165;i++)
+            question3 += question[i];
+            for (int i=165;i<question.length();i++)
+            question4 += question[i];
+        }
 
 
         PlaySound("./sounds/question.wav",NULL,SND_ASYNC);
         SetConsoleTextAttribute(h,6);
-        gotoxy(4,12);cout <<"[*]"<<question1 << endl;    //To display question
-        gotoxy(5,16);cout <<question2<< endl;            //To display question if question exceeds first line
+        gotoxy(3,12);cout <<"[*]"<<question1 << endl;    //To display question
+        gotoxy(4,16);cout <<question2<< endl;            //To display question if question exceeds first line
+        gotoxy(5,16);cout <<question3<< endl;            //To display question if question exceeds first line
+        gotoxy(6,16);cout <<question4<< endl;            //To display question if question exceeds first line
         SetConsoleTextAttribute(h,15);
 
         gm.displayOptions();                             //To display options
@@ -531,8 +534,6 @@ int main(){
 
                 }
             }
-
-
         }
 
         lockedAnswer=guessAnswer - 48;      //Converting user answer from ascii to integer
@@ -540,8 +541,10 @@ int main(){
 
 
         fd << question << endl;
-      //  fd << guessAnswer << endl << endl;
-
+        if(lockedAnswer>0 && lockedAnswer<5)
+        {
+        fd << gm.getOption(lockedAnswer);
+        }
 
       // label for Branching after using Lifeline
         fiftyUsed:

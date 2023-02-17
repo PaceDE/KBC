@@ -41,10 +41,10 @@ None of the above
 Shishupala
 /
 8) If you were to score a 'Birdie' in a game of golf, what would your score be?
-2 under par
-1 over par
+Two under par
+One over par
 A hole in 1    
-1 under par
+One under par
 /
 9) Who was the first gymnast to be awarded a perfect score of 10.0 at the Olympic Games?
 Beth Tweddle
@@ -52,24 +52,23 @@ Larisa Latynina
 Nadia Comăneci
 Simone Biles
 /
-10) In which city would you find the Sagano Bamboo Forest?
-Kyoto
-Hiroshima    
-Osaka
-Nagasaki 
+10) When was the Nepal decrlared Untouchable free Nations?
+B.S.2073 Jestha 21
+B.S.2071 Jestha 21
+B.S.2068 Baishakh 18
+B.S.2066 Baishakh 18 
 /
 11) Go Go Foundation Award-2073 who was awarded?
 Gagan thapa
-kulman ghising
-kp oli              
-sher bhadhur deuba
+Kulman ghising
+Kp oli              
+Sher bhadhur deuba
 /
 12) What was the name of the son of Urmila and Lakshmana (Brother of Lord Ram)?
 Angad and Dharmaketu
 Lav and Kush
 Bharat and Shatrughan
 Arjun and Sahadeva
-
 /
 13) Where is the half of the brain of Charles Babbage, the inventor of the programable Computer, Preserved?
 The British Museum       
@@ -83,11 +82,11 @@ Dr Subash Thakuri
 Dr Bikram Shahi
 Dr Prakash Chandra
 /
-15) Which is the world's first talking movie?
-While the London Sleeps
-George Singer
-The Better Ole
-Don Juan
+15)  Which alcohol is served with red ball to make a 'Glitterbomb' shot?
+Jagermeister
+Goldschlager
+Baileys
+Vodka
 /
 16) Chilli is spicy because of which element?
 Lycopine
@@ -95,7 +94,7 @@ Capsaicine
 Carotene
 Anthocyanin
 /
-17) Which coffee chain is named after a character in Moby Dick by Herman Melville?
+17) Which coffee chain is named after a character in novel "The Whale" by Herman Melville?
 Biggby Coffee
 Pret
 Starbucks
@@ -120,15 +119,15 @@ Charles 'Pete' Conrad
 Mark Hamill
 /
 21) When was Falgunanda, the Mahaguru of Kirant Dharma, declared the seventeenth National Vibhuti of Nepal? 
-2066 November 16
-2056 December 16
-2056 November 16
-2066 December 16
+November 2066 16
+December 2056 16
+November 2056 16
+December 2066 16
 /
 22) What do the stars represent on the Brazilian flag?
 Every town and city in the country
 Constellations in the southern hemisphere the day Brazil became a republic
-How many trophies the football team have won, so it changes a lot!
+How many trophies the football team have won
 They just looked "cool", according to their first president
 /
 23) What is the maximum number of points a player can score during a frame of snooker?
@@ -149,11 +148,11 @@ George Broiski
 Freddy Hamper
 Giovanni Lorenzo
 /
-26) Which caste has the custom of marrying the bridegroom and bridegroom by knocking their heads three times?
-Lama
-Gurung
-Thakuri
-Chepang
+26) The Fittingly-named butterfly Polygonia interrogationis has markings on the underside of its wings that resemble what type of punctuation?
+Exclamation Points       
+Question Marks   
+Semicolons                   
+Quotation Marks
 /
 27) When the Radio Nepal (Nepali: रेडियो नेपाल) is the state-owned Radio broadcasting organization of Nepal was established?
 5th June 1952      
@@ -173,11 +172,11 @@ Environment Conservation for Asia and Far East
 Economic Commission for Asia and Far East 
 Environment Community of Asia and Far East
 /
-30) How long do sloths take to digest a meal?
-6 hours
-12 hours
-1 week
-2 weeks
+30) Which mountain range of Nepal is the basis of which the authentic time is determined?
+Dhaulagiri 
+Annapurna
+Mahalangur
+Gaurishankar
 /
 31) What is the mascot of the eighth national sports tournament?
 Rhino with one horn
@@ -186,16 +185,16 @@ Musk Deer
 Danfe 
 /
 32) When was Khotang declared a literate district?
-BS Phagun 2
-BS Asar 3
-BS Chaitra 3
-BS Baishakh 2
+BS 2070 Phagun 2
+BS 2071 Asar 3
+BS 2071 Chaitra 3
+BS 2070 Baishakh 2
 /
 33) When was Smart Gorkhapatra-2018 officially launched?
-BS Chaitra 3
-BS Asar 3
-BS Phagun 2
-BS Baishakh 2
+BS 2075 Chaitra 3
+BS 2074 Asar 3
+BS 2074 Phagun 2
+BS 2075 Baishakh 2
 /
 34) In which year was the first Academy Award given?
 1929
@@ -215,11 +214,11 @@ Year 1855
 Year 1872
 Year 1972
 /
-37) Which country is known as 'Buffer Zone of Europe'?
-Turkey
-Belium
-France
-Spain
+37)When was the Nepal Electricity Authority established?
+August 13th 1985              
+August 16th 1985
+November 21st 1984         
+July 18th 1986
 /
 38) Which English queen had an extra finger on her hand?
 Mary Tudor
@@ -264,10 +263,10 @@ Macbeth
 Romeo and Juliet
 /
 45) In centimetres, how tall is the Christ the Redeemer statue in Rio de Janeiro?
-2500
-2505
+2,500
+2,505
 3,800
-4000
+4,000
 /
 46) Which of the following is not a high-level cloud?
 Stratus
@@ -306,16 +305,16 @@ January 7 2024
 February 8 2024
 /
 52) When was decision made to convert Shuklaphata Wildlife Sanctuary into a National Park?
-2072 December 7
-2073 December 7
-2074 March 7
-2075 March 7
+December 2072 7
+December 2073 7
+March 2074 7
+March 2075 7
 /
 53) How many countries have reached an agreement with Nepal at present?
-67
-89
-15
-38
+Sixty Seven
+Eighty Nine
+Fifteen
+Thirty Eight
 /
 54) According to mytholoy, who was the first to worship Saraswoti?
 Lord Shiva
@@ -419,11 +418,11 @@ Mahershala ali
 Imran Khan
 Babar Hussain Ali
 /
-71) When was the popular social network Facebook(now Meta) Launched?
-February 2002
-December 2002
-December 2003
-February 2004
+71) Which Youngest Nobel Prize winner was shot by Talibani Gunmen for her action and speech for the girl's right to education?
+Frances Arnold                                
+Nadia Murad
+Malala Yousafzai                           
+Tawakkol Karman
 /
 72) What is the test used to diagnose typhoid called?
 VDRL
@@ -448,7 +447,3 @@ Doline
 Blank hole
 Sink Hole
 Pothole
-
-
-
-

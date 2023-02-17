@@ -71,10 +71,10 @@ charles babbage
 None
 /
 13) How many function keys are on the keyboard?
-4
-8
-12
-16
+Four
+Eight
+Twelve
+Sixteen
 /
 14) which character is used to indicate an end tag?
 <
@@ -118,11 +118,11 @@ class()
 Myclass
 class
 /
-21) which lake is situated between iran and russia?
-caspian lake
-Baikal lake
-satpara lake
-supreior lake
+21) Showing tens or possibility, "am", "is", "are", "was","were","be","being",and"been" are among the words nicknamed what?
+Cooperative nouns        
+Friendly adjectives
+Helping Verbs               
+Supportive exclamations
 /
 22) what is the boiling point of water?
 50°C
@@ -148,11 +148,11 @@ Melbourne
 Canberra
 Brisbane
 /
-26) How long is the border between the United States and Canada?
-3,525 miles
-4,525 miles
-5,525 miles
-6,525 miles
+26) How long is the total area of Nepal?
+1,81,504 SqKm
+2,64,504 SqKM
+1,47,181 Sqkm
+1,49,101 SqKm
 /
 27) What is the largest active volcano in the world?
 Mount Etna
@@ -185,10 +185,10 @@ Yellow River
 Congo River
 /
 32) How many sides has a Hexagon?
-5
-6
-7
-8
+Five
+Six
+Seven
+Eight
 /
 33) Who is the CEO of Amazon?
 Elon Musk
@@ -227,16 +227,16 @@ Miami
 Memphis
 /
 39) How many players are in a cricket team?
-8
-9
-10
-11
+Eight
+Nine
+Ten
+Eleven
 /
 40) How many players are in a football team?
-8
-9
-10
-11
+Eight
+Nine
+Ten
+Eleven
 /
 41) What does NASA stand for?
 National Aeronautics and Space Administration
@@ -244,11 +244,11 @@ Nautical And Space Association
 National Aeronautics and Space Association
 New Aeronautics and Spacial Administration
 /
-42) What is the name of the gem in the movie Titanic?
-Call of the Ocean
-Heart of Love
-Heart of the Ocean
-Call of Love
+42) What is the collective noun for a group of Rhino?
+A Thunder
+A Skull		
+A Crash
+A Tower
 /
 43) Apart from water, what is the most popular drink in the world?
 Tea

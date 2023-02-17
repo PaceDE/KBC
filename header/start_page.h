@@ -69,7 +69,7 @@ void counter(int current,int SR)               //Timer
         }
         SetConsoleTextAttribute(h,15);
         gotoxy(12,22);
-        Sleep(960);seconds=(seconds==0)?0:(seconds-1);
+        Sleep(955);seconds=(seconds==0)?0:(seconds-1);
         last=current;
         }
          PlaySound(NULL,NULL,0);

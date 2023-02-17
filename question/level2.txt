@@ -22,11 +22,11 @@ On a Volleyball Court
 In a Courtroom   
 In a Libary
 /
-5) The Fittingly-named butterfly Polygonia interrogationis has markings on the underside of its wings that resemble what type of punctuation?
-Exclamation Points       
-Question Marks   
-Semicolons                   
-Quotation Marks
+5) Which caste has the custom of marrying the bridegroom and bridegroom by knocking their heads three times?
+Lama
+Gurung
+Thakuri
+Chepang
 /
 6) Which of these is a notable location in Norse Mythology, and NOT in Greek Mythology?
 Mount Plympus        
@@ -34,11 +34,11 @@ Elysian Fields
 Tartarus                    
 Valhalla  
 /
-7) Showing tens or possibility, "am", "is", "are", "was","were","be","being",and"been" are among the words nicknamed what?
-Cooperative nouns        
-Friendly adjectives
-Helping Verbs               
-Supportive exclamations
+7) which lake is situated between iran and russia?
+caspian lake
+Baikal lake
+satpara lake
+supreior lake
 /
 8) A geologist would likely be LEAST helpful for answering questions about which of the following?
 Granite boulders         
@@ -58,11 +58,11 @@ Four
 11,111,111,111         
 111,111,111,111
 /
-11) The first historical election after the declaration of democracy in 2007 BS was declared in 
-Magh 19th 2014 BS         
-Falgun 7th 2014 BS
-Poush 25th 2014 BS        
-Mangsir 21st 2014 BS
+11) Which is the world's first talking movie?
+The Jazz Singer 
+While the London Sleeps
+The Better Ole
+Don Juan
 /
 12) What does Volkswagen mean?
 Family Car
@@ -70,11 +70,11 @@ People's Car
 Reliable Car
 Powerful Car
 /
-13) What is the collective noun for a group of Rhino?
-A Thunder
-A Crash		
-A Skulk
-A Tower
+13) What is the name of the gem in the movie Titanic?
+Call of the Ocean
+Heart of the Ocean
+Heart of Love
+Call of Love
 /
 14) Who has the right to declare an insurgency period in Nepal?
 Defense Minister     
@@ -118,11 +118,11 @@ Mosaic
 Mozilla                         
 Nexus  
 /
-21) Which Youngest Nobel Prize winner was shot by Talibani Gunmen for her action and speech for the girl's right to education?
-Frances Arnold                                
-Nadia Murad
-Malala Yousafzai                           
-Tawakkol Karman
+21)  When was the popular social network Facebook(now Meta) Launched?
+February 2002
+December 2002
+December 2003
+February 2004
 /
 22) National Vigilance Center is Under :
 Prime Minister                     
@@ -196,13 +196,13 @@ National Lampoon's Christmas Vacation
 Home Alone 2
 Miracle on 34th Street
 /
-34) When the National Poet Madhav Prasad Ghimire dead?
+34) When did the National Poet Madhav Prasad Ghimire died?
 July 12th 2019    
 Feb 18th 2020
 Aug 18th 2020     
 Sept 15th 2019
 /
-35) When Charles Darwin died?
+35) When did Charles Darwin died?
 July 12th 1885      
 Feb 18th 1884
 Aug 18th 1883      
@@ -226,7 +226,7 @@ About 1225 Years
 27,312,771  
 29,312,771
 /
-39) When did the practice of Kamaiya end? कमैया प्रथाको अन्त्य कहिले भयो?
+39) When did the practice of Kamaiya end? 
 BS 2055       
 BS 2056 
 BS 2057        
@@ -244,7 +244,7 @@ About 4.6M
 About 5.6M               
 About 6.6M
 /
-42) Who is th founder of PubG?
+42) Who is the2 founder of PubG?
 Tom Salta                          
 Brendan Greene
 Branden Ginny                
@@ -280,11 +280,11 @@ May 28 2008
 May 28 2007
 June 28 2007
 /
-48) When was the Nepal Electricity Authority established?
-13th August 1985              
-18th July 1986
-21st November 1984         
-16th August 1985
+48) Which country is known as 'Buffer Zone of Europe'?
+Turkey
+Spain
+Germany
+Belgium
 /
 49) Which is the largest Province of Nepal?
 Provinces 6                             
@@ -305,10 +305,10 @@ Provinces 6
 Provinces 8
 /
 52) What year was the Eiffel Tower built?
-1854
-1912   
-1987
-1887
+AD 1854
+AD 1912   
+AD 1987
+AD 1887
 /
 53) About how many languages are spoken in Nepal?
 About 40
@@ -346,7 +346,7 @@ Alec John Jeffrey
 Gregor Johann Mendel
 Stan Lee
 /
-59) How many people were boarded on the ATR-72 aircraft which recentlty had a tragic accident in the Pokhara?
+59) How many people were on board in the ATR-72 aircraft which recentlty had a tragic accident in the Pokhara?
 Sixty two
 Seventy Two
 Sixty Three
@@ -388,17 +388,17 @@ The Sahara Desert
 Kebili Tunisia
 Azizia of Libya
 /
-66) Which mountain range of Nepal is the basis of which the authentic time is determined?
-Gaurishankar
-Annapurna
-Mahalangur
-Dhaulagiri
+66) How long do sloths take to digest a meal?
+2 weeks 
+12 hours
+1 week
+6 hours
 /
 67) How many mountains are higher than 8 thousand in Nepal?
-8
-7
-9
-10
+Eight
+Seven
+Nine
+Ten
 /
 68) Makalu Himal belongs to which ice range?
 Gaurishankar
@@ -418,7 +418,7 @@ Personification
 Example
 Metaphor
 /
-71) Ram was the son of Dasharath and _________ ?
+71) Ram was the son of Dasharath and ?
 Kaikeyi
 Kunti
 Kausalya
@@ -447,6 +447,7 @@ Ghatotkacha
 Jarasandha
 Abhimanyu
 Barbarik
+/
 
 
 
